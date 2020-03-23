@@ -62,7 +62,11 @@
                         <viewLayoutGuide key="safeArea" id="FCc-3V-DED"/>
                     </view>
                     <navigationItem key="navigationItem" id="2hN-xI-WOr">
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="NME-Tk-908"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="NME-Tk-908">
+                            <connections>
+                                <action selector="done:" destination="xNl-47-CpG" id="uyX-Zb-qNh"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CAs-RS-xtH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
