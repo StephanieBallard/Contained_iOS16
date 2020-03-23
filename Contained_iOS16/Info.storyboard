@@ -10,7 +10,7 @@
         <!--Info View Controller-->
         <scene sceneID="xcw-sb-9aB">
             <objects>
-                <viewController title="Info View Controller" id="SVB-p8-hEo" customClass="InfoViewController" customModule="Contained_iOS16" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="SVB-p8-hEo" customClass="InfoViewController" customModule="Contained_iOS16" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iS3-yD-QQ4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -69,11 +69,13 @@
             </objects>
             <point key="canvasLocation" x="2530" y="223"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Info-->
         <scene sceneID="GEy-gb-r0w">
             <objects>
                 <navigationController storyboardIdentifier="InfoNavigation" automaticallyAdjustsScrollViewInsets="NO" id="4sW-Hl-l14" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Info" image="info" id="ZK8-CO-ViR"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7D6-h1-amr">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -88,4 +90,7 @@
             <point key="canvasLocation" x="358" y="223"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="info" width="30" height="30"/>
+    </resources>
 </document>
