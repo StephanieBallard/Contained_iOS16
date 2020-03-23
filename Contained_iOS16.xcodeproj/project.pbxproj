@@ -18,6 +18,7 @@
 		5AF3BBD724294EF6000A20C1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3BBD624294EF6000A20C1 /* GameViewController.swift */; };
 		5AF3BBD924294F03000A20C1 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3BBD824294F03000A20C1 /* InfoViewController.swift */; };
 		5AF3BBDB24294F0F000A20C1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3BBDA24294F0F000A20C1 /* SettingsViewController.swift */; };
+		5AF3BBDD24296B36000A20C1 /* CustomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3BBDC24296B36000A20C1 /* CustomScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		5AF3BBD624294EF6000A20C1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		5AF3BBD824294F03000A20C1 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		5AF3BBDA24294F0F000A20C1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5AF3BBDC24296B36000A20C1 /* CustomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				5AF3BA5E242945AF000A20C1 /* AppDelegate.swift */,
 				5AF3BA60242945AF000A20C1 /* SceneDelegate.swift */,
 				5AF3BA64242945AF000A20C1 /* Main.storyboard */,
+				5AF3BBDC24296B36000A20C1 /* CustomScene.swift */,
 				5AF3BBD624294EF6000A20C1 /* GameViewController.swift */,
 				5AF3BBD824294F03000A20C1 /* InfoViewController.swift */,
 				5AF3BBDA24294F0F000A20C1 /* SettingsViewController.swift */,
@@ -159,6 +162,7 @@
 				5AF3BBDB24294F0F000A20C1 /* SettingsViewController.swift in Sources */,
 				5AF3BA5F242945AF000A20C1 /* AppDelegate.swift in Sources */,
 				5AF3BBD52429478E000A20C1 /* Settings.swift in Sources */,
+				5AF3BBDD24296B36000A20C1 /* CustomScene.swift in Sources */,
 				5AF3BBD924294F03000A20C1 /* InfoViewController.swift in Sources */,
 				5AF3BA61242945AF000A20C1 /* SceneDelegate.swift in Sources */,
 			);
